@@ -1,0 +1,235 @@
+.photogrid {
+  position: relative;
+  clear: both;
+ }
+ 
+.photogrid ul {
+  max-width: none;
+  margin: 0 auto 0;
+  padding: 0;
+  position: relative;
+  z-index: 50;
+  overflow: hidden;
+}
+
+.photogrid ul li {
+  margin: 0;
+  list-style: none; 
+  position: absolute;
+  width: 16.8%;
+  background: #000;
+  z-index: 98; 
+}
+
+.photogrid li a {
+  display: block;
+  position: relative; 
+}
+
+.photogrid li img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photogrid ul:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 1px;
+  z-index: 100;
+}
+
+.photogrid ul:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  border-left: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.photogrid ul.count-4 li,
+.photogrid ul.count-5 li.photo-1,
+.photogrid ul.count-5 li.photo-3,
+.photogrid ul.count-5 li.photo-4,
+.photogrid ul.count-5 li.photo-5,
+.photogrid ul.count-8 li.photo-1,
+.photogrid ul.count-8 li.photo-2,
+.photogrid ul.count-8 li.photo-3,
+.photogrid ul.count-8 li.photo-4,
+.photogrid ul.count-8 li.photo-8,
+.photogrid ul.count-7 li.photo-1,
+.photogrid ul.count-2 li.photo-1,
+.photogrid ul.count-3 li.photo-1,
+.photogrid ul.count-6 li.photo-1,
+.photogrid ul.count-6 li.photo-2,
+.photogrid ul.count-9 li.photo-1,
+.photogrid ul.count-10 li.photo-1 {
+  position: relative;
+  float: left; 
+}
+
+.photogrid ul.count-4 li,
+.photogrid ul.count-5 li.photo-1,
+.photogrid ul.count-5 li.photo-2,
+.photogrid ul.count-5 li.photo-4,
+.photogrid ul.count-5 li.photo-5 {
+  width: 25%; 
+}
+
+.photogrid ul.count-5 li.photo-3,
+.photogrid ul.count-7 li.photo-1,
+.photogrid ul.count-2 li.photo-1,
+.photogrid ul.count-3 li.photo-1,
+.photogrid ul.count-6 li.photo-1,
+.photogrid ul.count-6 li.photo-2,
+.photogrid ul.count-9 li.photo-1,
+.photogrid ul.count-2 li.photo-2,
+.photogrid ul.count-10 li.photo-1 {
+  width: 50%; 
+}
+
+.photogrid ul.count-3 li,
+.photogrid ul.count-3 li.photo-1,
+.photogrid ul.count-9 li.photo-1,
+.photogrid ul.count-6 li.photo-1,
+.photogrid ul.count-6 li.photo-2,
+.photogrid ul.count-7 li.photo-2 {
+  width: 33.3333333333%; 
+}
+
+.photogrid ul.count-8 li.photo-1,
+.photogrid ul.count-8 li.photo-8 {
+  width: 28.7%; 
+}
+
+.photogrid ul.count-6 li.photo-3,
+.photogrid ul.count-6 li.photo-5,
+.photogrid ul.count-7 li.photo-6,
+.photogrid ul.count-9 li.photo-4,
+.photogrid ul.count-9 li.photo-8,
+.photogrid ul.count-10 li.photo-3,
+.photogrid ul.count-10 li.photo-6,
+.photogrid ul.count-10 li.photo-9 {
+  right: 16.6666666667%; 
+}
+
+.photogrid ul.count-8 li.photo-2,
+.photogrid ul.count-8 li.photo-3,
+.photogrid ul.count-8 li.photo-4,
+.photogrid ul.count-8 li.photo-5,
+.photogrid ul.count-8 li.photo-6,
+.photogrid ul.count-8 li.photo-7 {
+  width: 14.2%; 
+}
+
+.photogrid ul.count-6 li.photo-4,
+.photogrid ul.count-6 li.photo-6,
+.photogrid ul.count-7 li.photo-4,
+.photogrid ul.count-3 li.photo-3,
+.photogrid ul.count-7 li.photo-3,
+.photogrid ul.count-7 li.photo-7,
+.photogrid ul.count-9 li.photo-5,
+.photogrid ul.count-9 li.photo-9,
+.photogrid ul.count-10 li.photo-4,
+.photogrid ul.count-10 li.photo-7,
+.photogrid ul.count-10 li.photo-10 {
+  right: 0; 
+}
+
+.photogrid ul.count-6 li.photo-5,
+.photogrid ul.count-6 li.photo-6,
+.photogrid ul.count-9 li.photo-6,
+.photogrid ul.count-7 li.photo-6,
+.photogrid ul.count-7 li.photo-5,
+.photogrid ul.count-7 li.photo-7,
+.photogrid ul.count-9 li.photo-7,
+.photogrid ul.count-9 li.photo-8,
+.photogrid ul.count-9 li.photo-9,
+.photogrid ul.count-10 li.photo-8,
+.photogrid ul.count-10 li.photo-9,
+.photogrid ul.count-10 li.photo-10 {
+  bottom: 0; 
+}
+
+.photogrid ul.count-3 li.photo-2,
+.photogrid ul.count-9 li.photo-3,
+.photogrid ul.count-9 li.photo-7 {
+  right: 33.3333333333%; 
+}
+
+.photogrid ul.count-7 li.photo-4,
+.photogrid ul.count-10 li.photo-5,
+.photogrid ul.count-10 li.photo-6,
+.photogrid ul.count-10 li.photo-7 {
+  top: 33.3333333333%; 
+}
+
+.photogrid ul.count-5 li.photo-2,
+.photogrid ul.count-8 li.photo-5,
+.photogrid ul.count-8 li.photo-6,
+.photogrid ul.count-8 li.photo-7 {
+  top: 50%; 
+}
+
+.photogrid ul.count-7 li.photo-5,
+.photogrid ul.count-7 li.photo-2,
+.photogrid ul.count-2 li.photo-2,
+.photogrid ul.count-10 li.photo-2,
+.photogrid ul.count-10 li.photo-5,
+.photogrid ul.count-10 li.photo-8 {
+  left: 50%; 
+}
+
+.photogrid ul.count-9 li.photo-2,
+.photogrid ul.count-9 li.photo-6 {
+  left: 33.3333333333%; 
+}
+
+.photogrid ul.count-8 li.photo-5 {
+  left: 28.7%; 
+}
+
+.photogrid ul.count-8 li.photo-6 {
+  left: 42.9%; 
+}
+
+.photogrid ul.count-8 li.photo-7 {
+  left: 57.1%; 
+}
+
+.photogrid .image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: #fff solid 1px;
+}
+
+.photogrid .image-mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: 2;
+	opacity: 0.3;
+}
+
+.photogrid .image-mask:hover {
+    opacity: 0;
+}
+
+.article-body {
+    padding: 5px;
+    background: #000;
+}
+
+.count-1 {
+	height: 300px;	
+}
+
+.count-1 .photo-1 {
+	width: 100%;
+}

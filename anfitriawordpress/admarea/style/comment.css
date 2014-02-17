@@ -1,0 +1,71 @@
+/* 
+    Document   : comment.css
+    Created on : 18/03/2013, 10:20:00
+    Author     : Lucas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#wpadminbar{
+    display: none;
+}
+
+.comentarios{
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    top: 10px;
+}
+.comentarios, .comentarios div{
+    background: #F4F4F4;
+}
+
+.comentarios #header{
+    width: 100%;
+    float: left;
+}
+.comentarios #header div{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.comentarios #header .ativar, .comentarios #header #encaminhar,.comentarios #header .encaminhar{
+    width: 15%;
+    cursor: pointer;
+}
+.comentarios #header-2{
+    width: 100%;
+    float: left;
+}
+.comentarios #header-2 div{
+    text-align: center
+}
+.comentarios #header-2 #comentario{
+    width: 80%;
+    float: left;
+}
+.comentarios #header-2 #imagem{
+    width: 15%;
+    float: left;
+}
+.comentarios #content{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.comentarios #content .textarea{
+    width: 80%;
+    margin: 0px auto;
+    height: 100px;
+    text-align: center;
+}
+.comentarios #content .textarea textarea{
+    width: 80%;
+    height: 100%;
+    float: left;
+    margin: 0px auto;
+}
+#paginacao{
+    float: left;
+}

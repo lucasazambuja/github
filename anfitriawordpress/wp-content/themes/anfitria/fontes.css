@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'MuliRegular';
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-Regular-webfont.eot');
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Regular-webfont.woff') format('woff'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Regular-webfont.ttf') format('truetype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Regular-webfont.svg#MuliRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuliLight';
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-Light-webfont.eot');
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Light-webfont.woff') format('woff'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Light-webfont.ttf') format('truetype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Light-webfont.svg#MuliLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuliLightItalic';
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-LightItalic-webfont.eot');
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-LightItalic-webfont.woff') format('woff'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-LightItalic-webfont.ttf') format('truetype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-LightItalic-webfont.svg#MuliLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuliItalic';
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-Italic-webfont.eot');
+    src: url('http://anfitria.com.br/wordpress/fontes/Muli-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Italic-webfont.woff') format('woff'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Italic-webfont.ttf') format('truetype'),
+         url('http://anfitria.com.br/wordpress/fontes/Muli-Italic-webfont.svg#MuliItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
